@@ -14,7 +14,7 @@ const MakeAdmin = () => {
   const { register, handleSubmit } = useForm();
 
   const onSubmit = (data) => {
-    if (email === "saddam.hossain.knight@gmail") {
+    if (email === "test@admin.com") {
       return swal(
         "Permission restriction!",
         "As a test-admin, you don't have this permission.",
